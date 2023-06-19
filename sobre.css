@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.500);
+    border: 1px solid rgb(0, 98, 255);
+    border-radius: 15px;
+}
+
+.link-topo {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    transition: 0.3s ease;
+}
+
+.link-topo:hover {
+    font-size: 22px;
+    color: rgb(0, 98, 255);
+}
+
+#title-sobre {
+    color: rgb(0, 98, 255);
+    font-size: 50px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;  
+}
+
+#sobre-foto {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#sobre-img {
+    height: 500px;
+    border: 5px solid rgb(0, 98, 255);
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+#sobre-img:hover {
+    filter: brightness(120%);
+    box-shadow: 0px 3px 20px rgb(154, 154, 154);
+    height: 550px;
+}
+
+#sobre-desc {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 1.5;
+}
+
+.rodape01-text {
+    margin: 5px;
+    font-size: 20px;
+    color: rgb(0, 98, 255);
+}
+
+.rodape01-subtext {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+}
+
+#seta-topo {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 98, 255);
+    border-radius: 50px;
+    padding: 15px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    transition: 0.3s ease;
+}
+
+#seta-topo:hover {
+    background-color:  rgb(0, 83, 215);
+    box-shadow: 3px 3px 10px rgb(170, 170, 170);
+}
+
+#seta-para-cima {
+    height: 40px;
+}
+
+footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.500);
+    border: 1px solid rgb(0, 98, 255);
+    border-radius: 15px;
+  }
+  
+.left-section, .right-section {
+    flex-basis: 30%;
+  }
+  
+.center-section {
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  
+#rodape01-logo {
+    height: 150px;
+  }
+
+#rodape01-inc {
+    display: flex;
+    justify-content: end;
+    
+  }
+
+ body {
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+   
+} 
