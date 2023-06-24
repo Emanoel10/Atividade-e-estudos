@@ -2,6 +2,10 @@
 
 *{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 #header {
@@ -26,6 +30,21 @@
 .link-topo:hover {
     font-size: 22px;
     color: rgb(0, 98, 255);
+}
+
+#ajuda {
+    position: center;
+    height: 30px;
+    transition: 0.3s ease;
+}
+
+#ajuda:hover {
+    position: center;
+    height: 35px;
+}
+
+nav {
+    display: flex;
 }
 
 #title-sobre {
