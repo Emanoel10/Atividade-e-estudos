@@ -1,118 +1,165 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sobre.css">
-    <link rel="icon" href="icons/logo-hackathon.jpg">
-    <title>Sobre Nós</title>
-</head>
-<body>
-<!--HEADER-->
-<section id="header">
-    <a href="index.html"><img src="icons/logo-hackathon.png" alt="Logo do Hackathon" height="130px"></a>
-    <nav>
-        <a href="index.html" class="link-topo">INÍCIO</a>
-        <!--<a href="sobre.html" class="link-topo">SOBRE</a>-->
-        <a href="#left-section" class="link-topo">CONTATO</a>
-        <a href="contato.html" class="link-topo"><img id="ajuda" src="icons/ajuda.png" alt="Ajuda"></a>
-    </nav>
-</section>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-<!--CORPO-->
-    <h1 id="title-sobre">SOBRE NÓS</h1>
-    <a href="links/link-card03.jpeg"><div id="sobre-foto"><img id="sobre-img" src="links/link-card03.jpeg" alt="Nossa Foto"></div></a>
-    <div id="sobre-desc"><p>
-        Lorem ipsum dolor sit amet,
-        Consectetur adipiscing elit.
-        Pellentesque dapibus justo vitae velit finibus,
-        Ut finibus purus accumsan et.
-        Nulla facilisi.
-        Vivamus aliquet ligula at gravida varius.
-        Phasellus at enim id dui venenatis tempus.
-        Mauris quis velit sollicitudin, ultrices dolor sed,
-        Dignissim nulla.
-        Cras id ipsum consequat,
-        Vestibulum venenatis libero.
-        Sed eu metus dapibus, consectetur enim eget,
-        Lacinia est.
-        Quisque condimentum mi et odio congue,
-        Fringilla semper augue commodo.
-        Praesent consequat est vitae lacus blandit,
-        Pellentesque.
-        Lorem ipsum dolor sit amet,
-        Consectetur adipiscing elit.
-        Pellentesque dapibus justo vitae velit finibus,
-        Ut finibus purus accumsan et.
-        Nulla facilisi.
-        Vivamus aliquet ligula at gravida varius.
-        Phasellus at enim id dui venenatis tempus.
-        Mauris quis velit sollicitudin, ultrices dolor sed,
-        Dignissim nulla.
-        Cras id ipsum consequat,
-        Vestibulum venenatis libero.
-        Sed eu metus dapibus, consectetur enim eget,
-        Lacinia est.
-        Quisque condimentum mi et odio congue,
-        Fringilla semper augue commodo.
-        Praesent consequat est vitae lacus blandit,
-        Pellentesque.
-        Lorem ipsum dolor sit amet,
-        Consectetur adipiscing elit.
-        Pellentesque dapibus justo vitae velit finibus,
-        Ut finibus purus accumsan et.
-        Nulla facilisi.
-        Vivamus aliquet ligula at gravida varius.
-        Phasellus at enim id dui venenatis tempus.
-        Mauris quis velit sollicitudin, ultrices dolor sed,
-        Dignissim nulla.
-        Cras id ipsum consequat,
-        Vestibulum venenatis libero.
-        Sed eu metus dapibus, consectetur enim eget,
-        Lacinia est.
-        Quisque condimentum mi et odio congue,
-        Fringilla semper augue commodo.
-        Praesent consequat est vitae lacus blandit,
-        Pellentesque.
-        Lorem ipsum dolor sit amet,
-        Consectetur adipiscing elit.
-        Pellentesque dapibus justo vitae velit finibus,
-        Ut finibus purus accumsan et.
-        Nulla facilisi.
-        Vivamus aliquet ligula at gravida varius.
-        Phasellus at enim id dui venenatis tempus.
-        Mauris quis velit sollicitudin, ultrices dolor sed,
-        Dignissim nulla.
-        Cras id ipsum consequat,
-        Vestibulum venenatis libero.
-        Sed eu metus dapibus, consectetur enim eget,
-        Lacinia est.
-        Quisque condimentum mi et odio congue,
-        Fringilla semper augue commodo.
-        Praesent consequat est vitae lacus blandit,
-        Pellentesque.
-    </p>
-</div>
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.500);
+    border: 1px solid rgb(0, 98, 255);
+    border-radius: 15px;
+}
 
-<!--RODAPÉ-->
-<footer>
-    <div class="left-section" id="left-section">
-        <h2 class="rodape01-text">TELEFONE:</h2> <h3 class="rodape01-subtext">+55 87 99999-9999</h3>
-        <h2 class="rodape01-text">E-MAIL:</h2> <h3 class="rodape01-subtext">hackathon@mercosul.com</h3>
-        <h2 class="rodape01-text">ENDEREÇO:</h2> <h3 class="rodape01-subtext">Rua Brasil Paraguai Uruguai Argentina, Nº 2023</h3>
-    </div>
-    <div class="center-section">
-      <a href="index.html"><img id="rodape01-logo" src="icons/logo-hackathon.png" alt="Logo do Hackathon"></a>
-    </div>
-    <div class="right-section">
-      <p id="rodape01-inc">Desenvolvido por Emanoel V. Rocha</p>
-    </div>
-  </footer>
+.link-topo {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    transition: 0.3s ease;
+}
 
+.link-topo:hover {
+    font-size: 22px;
+    color: rgb(0, 98, 255);
+}
 
-<!--RODAPÉ FINAL-->
-<p id="copyright">Todos os direitos reservados &copy; 2023</p>
-<a id="seta-topo" href="#header"><img id="seta-para-cima" src="icons/seta-para-cima.png" alt="Seta"></a>
-</body>
-</html>
+#ajuda {
+    position: center;
+    height: 30px;
+    transition: 0.3s ease;
+}
+
+#ajuda:hover {
+    position: center;
+    height: 35px;
+}
+
+nav {
+    display: flex;
+}
+
+#title-sobre {
+    color: rgb(0, 98, 255);
+    font-size: 50px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;  
+}
+
+#sobre-foto {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#sobre-img {
+    height: 500px;
+    border: 5px solid rgb(0, 98, 255);
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+#sobre-img:hover {
+    filter: brightness(120%);
+    box-shadow: 0px 3px 20px rgb(154, 154, 154);
+    height: 550px;
+}
+
+#sobre-desc {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 1.5;
+}
+
+.rodape01-text {
+    margin: 5px;
+    font-size: 20px;
+    color: rgb(0, 98, 255);
+}
+
+.rodape01-subtext {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+}
+
+#seta-topo {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 98, 255);
+    border-radius: 50px;
+    padding: 15px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    transition: 0.3s ease;
+}
+
+#seta-topo:hover {
+    background-color:  rgb(0, 83, 215);
+    box-shadow: 3px 3px 10px rgb(170, 170, 170);
+}
+
+#seta-para-cima {
+    height: 40px;
+}
+
+footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.500);
+    border: 1px solid rgb(0, 98, 255);
+    border-radius: 15px;
+  }
+  
+.left-section, .right-section {
+    flex-basis: 30%;
+  }
+  
+.center-section {
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  
+#rodape01-logo {
+    height: 150px;
+  }
+
+#rodape01-inc {
+    display: flex;
+    justify-content: end;
+    
+  }
+
+ body {
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+   
+} 
