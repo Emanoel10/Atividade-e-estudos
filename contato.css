@@ -2,6 +2,10 @@
 
 *{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 #header {
@@ -95,7 +99,7 @@ footer {
     align-items: center;
 }
   
-  .center-section a {
+.center-section a {
     margin: 50px 200px 100px;
 }
   
@@ -121,6 +125,7 @@ footer {
 }
 
 #form-title {
+    margin-bottom: 25px;
     color: rgb(0, 83, 215);
     font-size: 25px;
     display: flex;
