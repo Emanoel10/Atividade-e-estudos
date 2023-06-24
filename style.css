@@ -2,6 +2,10 @@
 
 *{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 #header {
@@ -25,6 +29,21 @@
     color: rgb(0, 98, 255);
 }
 
+#ajuda {
+    position: center;
+    height: 30px;
+    transition: 0.3s ease;
+}
+
+#ajuda:hover {
+    position: center;
+    height: 35px;
+}
+
+nav {
+    display: flex;
+}
+
 #banner {
     margin-top: 20px;
     background-image: url(img/banner.jpg);
@@ -38,6 +57,7 @@
 
 #banner-title {
     color: rgb(255, 255, 255);
+    padding: 20px;
     font-size: 50px;
     font-weight: 700;
     display: flex;
@@ -281,4 +301,13 @@ footer {
     display: flex;
     justify-content: end;
 }
-
+    
+@media screen and (max-width: 1650px) {
+    .card01, .card02, .card03, .card04, .card05, .card06 {
+        height: 500px;
+        width: 400px;
+        padding: 20px;
+        background-size: 500px;
+    }
+    
+ }
